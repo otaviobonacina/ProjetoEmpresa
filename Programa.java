@@ -5,8 +5,8 @@ public class Programa {
 		v.setDataDeEntrada("10/01/2010");
 		v.setDepartamento("Vendas");
 		v.setEstaNaEmpresa(true);
-		v.setNome("Eduardo");
-		v.setRg("45");
+		v.setNome("Jussara");
+		v.setRg("40");
 		//v.calculaSalario();		
 		 
 		
@@ -14,15 +14,15 @@ public class Programa {
 		g1.departamento = "Vendas";
 		g1.dataDeEntrada = "03/02/1990";
 		g1.estaNaEmpresa = true;
-		g1.nome = "Eric";		
-		g1.rg = "48";
+		g1.nome = "Carlos";		
+		g1.rg = "33";
 		g1.salario = 3500.0;
 		//g1.calculaSalario();
 
         g1.setLogin("eric");
 		g1.setSenha("123");
 		
-		Supervisor supervisor = new Supervisor();
+		//Supervisor supervisor = new Supervisor();
 
         System.out.println(v.getDataDeEntrada());
 		System.out.println(v.getDepartamento());
@@ -34,7 +34,7 @@ public class Programa {
 		
 		
 		System.out.println("//////////////////////////////");
-		g1.autenticao("eric", "124");
+		//g1.autentica("eric", "124");
 		System.out.println(g1.getDataDeEntrada());
 		System.out.println(g1.getDepartamento());
 		System.out.println(g1.getNome());
